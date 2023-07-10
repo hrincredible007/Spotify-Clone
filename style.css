@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: #FAEBD7;
 }
 
 .nav-bar{
@@ -12,12 +13,15 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+}   
+.icon{
+    background-color: black;
 }
-
 #logo-spotify{
     width: 45px;
     height: 44px;
-    margin: 10px 0px 10px 19px;
+    background-color: black;
+    margin: 10px 0px 5px 19px;
 }
 #nav-heading, .nav-Home, .nav-About{
     color: white;
@@ -26,9 +30,11 @@
     font-size: 21px;
     font-weight: 600;
     margin-left: 8px;
+    background-color: black;
     margin-right: 12px;
 }
 .nav-Home, .nav-About{
     font-size: 16px;
+    background-color: black;
     padding: 12px;
 }
