@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 *{
     /* background-color: aqua; */
+   
+    
+    /* background-color: #FAEBD7; */
+}
+
+body{ 
     margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: #FAEBD7;
+    background-color: rgb(175, 54, 157);
 }
-
 .nav-bar{
     background-color: black;
     width: 100%;
@@ -37,4 +44,93 @@
     font-size: 16px;
     background-color: black;
     padding: 12px;
+}
+
+.container{
+    width: 70%;
+    min-height: 72vh;
+    background-color: black;
+    color: white;   
+    background-image: url(accessories/bg.jpg);
+    background-size: cover;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    border-radius: 15px;
+    margin: 23px auto;
+    /* position: relative; */
+    /* padding: 10px; */
+    
+}
+.icons{
+    margin-top: 24px;
+    cursor: pointer;
+    background-color: black;
+}
+.bottom{
+    position: sticky; 
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+
+.songs-content{
+    margin: 10px 20px;
+}
+
+ .songs-List{
+    /* background-color: blueviolet; */
+    /* margin: 20px; */
+    padding: 10px;
+ }
+
+/*Song-Item*/
+.song-Item{
+    width: 600px;
+    height: 50px;
+    border-radius: 34px;
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songName{
+    font-size: 16px;
+}
+
+.song-Item img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timeStamp{
+    margin: 0 23px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+
+.song-Info img{
+    width: 42px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.song-Info{
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+
+    left: 10%;
 }

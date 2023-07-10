@@ -5,20 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="style.css" />
-
+    <script
+      src="https://kit.fontawesome.com/41a50aadfb.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Spotify</title>
   </head>
   <body>
     <header>
-        <div class="nav-bar">
-            <div class="icon">
-                <img id="logo-spotify" src="accessories/logo.png" alt="">
-            </div>
-            <div id="nav-heading">Spotify</div>
-            <div class="nav-Home">Home</div>
-            <div class="nav-About">About</div>
+      <div class="nav-bar">
+        <div class="icon">
+          <img id="logo-spotify" src="accessories/logo.png" alt="" />
         </div>
+        <div id="nav-heading">Spotify</div>
+        <div class="nav-Home">Home</div>
+        <div class="nav-About">About</div>
+      </div>
     </header>
+    <div class="container">
+      <div class="songs-content">
+        <h1>Best of KK's - No Copyright Sounds</h1>
+        <div class="songs-List">
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/1.jpg" alt="1" />
+            <span id="songName">Warriyo - Mortals [NCS Release]</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/2.jpg" alt="2" />
+            <span id="songName">Cielo - Huma-Huma</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/3.jpg" alt="3" />
+            <span id="songName">DEAF KEV - Invincible [NCS Release]-320k</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/4.jpg" alt="4" />
+            <span id="songName">Different Heaven & EH!DE - My Heart [NCS Release]
+            </span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/5.jpg" alt="5" />
+            <span id="songName">Janji-Heroes-Tonight-feat-Johnning-NCS-Release</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/6.jpg" alt="6" />
+            <span id="songName">Rabba - Salam-e-Ishq</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/7.jpg" alt="7" />
+            <span id="songName">Sakhiyaan - Salam-e-Ishq</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/8.jpg" alt="8" />
+            <span id="songName">Bhula Dena - Salam-e-Ishq</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item"> 
+            <img id="songImage" src="accessories/covers/9.jpg" alt="9" />
+            <span id="songName">Tumhari Kasam - Salam-e-Ishq</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+          <div class="song-Item">
+            <img id="songImage" src="accessories/covers/10.jpg" alt="9" />
+            <span id="songName">Bhula Dena - Salam-e-Ishq</span>
+            <span class="timeStamp">
+              <span> 05:45</span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+        </div>
+        <div class="song-Banner"></div>
+      </div>
+    </div>
+    
+    <div class="bottom">
+      <input type="range" id="myProgressBar" value="0" name="range" min="0" max="100"  />
+      <div class="icons">
+        <i class="fas fa-3x fa-step-backward"></i>
+        <i id = "play_pause_button" class="far fa-3x fa-play-circle"></i>
+        <i class="fas fa-3x fa-step-forward"></i>
+      </div>
+      <div class="song-Info">
+        <img id="gif" src="accessories/playing.gif" alt=""> Warriyo - Mortals [NCS Release]
+      </div>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
