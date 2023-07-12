@@ -121,7 +121,12 @@ body{
 .timeStamp i{
     cursor: pointer;
 }
-
+#forward{
+    margin-left: 10px;
+}
+#backward{
+    margin-right: 10px;
+}
 .song-Info img{
     width: 42px;
     opacity: 0;
